@@ -68,7 +68,7 @@ WSGI_APPLICATION = 'student_management_system.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'postgresql://postgres:GA4GCB6E6BFfcEE2gFF1bcA33352Df3F@roundhouse.proxy.rlwy.net:52707/railway',
         'NAME': 'railway',
         'USER': 'postgres',
         'PASSWORD': 'D625E*5f16AB4bBafBC2B43gEafAc6Fg',
